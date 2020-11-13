@@ -1,6 +1,16 @@
 /* Common styles*/
 body, html {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1 {
+	color: #333;
+	font-size: 64px;
+	font-weight: 800;
+	margin-top: 0;
+	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 h2 {
@@ -15,6 +25,40 @@ p {
 	font-size: 15px;
 	font-weight: 400;
 	color: #888;
+}
+
+.btn-custom {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+    color: #444;
+	background-color: transparent;
+	border: 2px solid #444;
+	padding: 14px 20px;
+	margin: 20px 30px 30px 0px;
+	font-size: 14px;
+	border-radius: 5%;
+	transition: all 0.5s;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active {
+	color: #eee;
+	background-color: #444;
+}
+
+/* Header Section */
+.intro {
+	background-color: #e5e5e5;
+}
+
+.intro p {
+	color: #444;
+	margin: 10px 0 20px 0;
+	font-size: 22px;
+}
+
+.intro-text {
+	padding-top: 250px;
+	padding-bottom: 200px;
 }
 
 /* About-me Section */
