@@ -1,7 +1,6 @@
 /* Common styles*/
 body, html {
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;  
 }
 
 h1 {
@@ -17,7 +16,13 @@ h2 {
 	font-weight: 700;
 	font-size: 42px;
 	color: #333;
+    text-transform: uppercase;
+}
+
+h5 {
 	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 20px;
 }
 
 p {
@@ -59,6 +64,45 @@ p {
 .intro-text {
 	padding-top: 250px;
 	padding-bottom: 200px;
+}
+
+/* Portfolio Section */
+#portfolio {
+	padding: 40px 0 100px 0;
+}
+
+.portfolio-btn{
+	padding: 6px 14px;
+	margin:15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.portfolio-item {
+	margin: 20px;
+	transition: all 0.5s ease-out;
+}
+
+img{
+    max-width: 400px; 
+}
+
+.card{
+    border: 2px solid rgb(43, 42, 42); 
+}
+
+.card-body{
+    border-top: 2px solid rgb(43, 42, 42);
+    background-color: #e5e5e5;
+}
+
+.card-text{
+    color: rgb(34, 33, 33);
+    font-size: 13px;
+}
+
+.card-title{
+    font-weight: 600;
 }
 
 /* About-me Section */
