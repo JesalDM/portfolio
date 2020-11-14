@@ -267,7 +267,6 @@ img{
 .input-text:focus {
 	border: 2px solid #61d657;
 	outline:0;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
 }
 
 .input-text.text-area{
@@ -290,4 +289,17 @@ img{
 .input-btn:hover{
 	background: rgb(31, 145, 238);
 	color: #222;
+}
+
+/* Footer section*/
+.footer_bottom {
+	background-color:white;
+	padding:20px 0;
+}
+
+.footer_bottom p{
+	display:block;
+	font-size:16px;
+	color: rgb(39, 36, 36);
+	text-align:center;
 }
