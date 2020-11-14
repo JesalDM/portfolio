@@ -220,7 +220,7 @@ img{
 }
 .social-link li{
 	float:left;
-	margin-right:8px;
+	margin-right:20px;
 }
 
 .social-link li a{
@@ -240,9 +240,7 @@ img{
 .linkedIn a:hover {
 	background: #2867b2;
 }
-.facebook a:hover {
-	background: #4267b2;
-}
+
 .github a:hover {
 	background: #ad5c51;
 }
