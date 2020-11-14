@@ -8,6 +8,8 @@
     <title>Jesal Mehta - Business Analyst/Web Developer</title>
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -23,7 +25,7 @@
 <body>
     <!-- Header/Home page -->
     <header id="header">
-        <div class="intro">
+        <div class="intro pb-4">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-lg-8">
@@ -47,7 +49,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="portfolio-item">
+                    <div class="portfolio-item animated zoomIn">
                         <div class="card text-center" style="width: 420px;">
                             <a href="./assets/images/Weather-Dashboard.gif">
                                 <img src="./assets/images/Weather-Dashboard.png" class="img-fluid" alt="Weather Dashboard">
@@ -63,7 +65,7 @@
                 </div>
                 
                 <div class="col-lg-6">
-                    <div class="portfolio-item">
+                    <div class="portfolio-item animated zoomIn">
                         <div class="card text-center" style="width: 420px;">
                             <a href="./assets/images/Work-Day-Scheduler.gif">
                                 <img src="./assets/images/Work-day-scheduler.png" class="img-fluid" alt="Work-day Scheduler">
@@ -78,7 +80,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="portfolio-item">
+                    <div class="portfolio-item animated zoomIn">
                         <div class="card text-center" style="width: 420px;">
                             <a href="./assets/images/Javascript-Code-Quiz.gif">
                                 <img src="./assets/images/code-quiz.png" class="img-fluid" alt="Javascript Code Quiz - Welcome Page">
@@ -93,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="portfolio-item">
+                    <div class="portfolio-item animated zoomIn">
                         <div class="card text-center" style="width: 420px;">
                             <a href="./assets/images/Drury-Lane-Sweets.gif">
                                 <img src="./assets/images/Drury-Lane-Sweets.png" class="img-fluid" alt="Dessert Place Website"> 
@@ -127,5 +129,57 @@
             </div>
         </div>
     </div>
+
+    <!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+      <section class="main-section contact">
+        <div class="contact_section">
+          <h2>Contact Me</h2>
+          <div class="row">
+            <div class="col-lg-4">
+                <div class="contact_block">
+                    <div class="contact_block_icon rollIn animated"><a href="https://www.google.com/maps/place/105+Osprey+Dr,+Portsmouth,+NH+03801/@43.08999,-70.7817797,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfb10619868f:0x4dcdde00631eebfb!8m2!3d43.08999!4d-70.779591" target="_blank"><span><i class="fas fa-home"></i></span></a></div>
+                    <span> 105 Osprey Drive <br>
+                    Portsmouth, NH 03801 </span> 
+                </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="contact_block">
+                <div class="contact_block_icon icon2 rollIn animated"><a href="tel:603-502-8253"><span><i class="fas fa-phone"></i></span></a></div>
+                <span> (603)-502-8253 </span> </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="contact_block">
+                <div class="contact_block_icon icon3 rollIn animated"><a href="mailto:jesaldmehta@gmail.com"><span><i class="fas fa-envelope-square"></i></span></a></div>
+                <span>jesaldmehta@gmail.com </span> </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact-info-box fadeInLeft animated">
+              <h3>Let's connect!</h3>
+              <p>For inquiries or collaborations please contact me by phone/email or fill out the form alongside.</p>
+            </div>
+            <ul class="social-link animated bounceInUp">
+              <li class="github "><a href="#"><i class="fab fa-github"></i></a></li>
+              <li class="linkedIn"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li class="facebook"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 fadeInRight animated">
+            <div class="form">
+              <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+              <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+              <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+              <input class="input-btn btn-lg" type="submit" value="send message">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+</div>
+
 </body>
 </html>
