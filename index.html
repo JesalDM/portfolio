@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--title-->
     <title>Jesal Mehta - Business Analyst/Web Developer</title>
+     <!--custom made favicon-->
+     <link rel="icon" href="./assets/images/favicon.ico">
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Material Design Bootstrap -->
@@ -32,6 +34,7 @@
                         <div class="intro-text">
                             <h1>Jesal Mehta</h1>
                             <p>Business Analyst / Web Developer</p>
+                            <!--Links to navigate to the other sections in the website-->
                             <a href="#portfolio" class="btn btn-custom btn-lg">Portfolio</a> 
                             <a href="#about-me" class="btn btn-custom btn-lg">About Me</a> 
                             <a href="#contact" class="btn btn-custom btn-lg">Contact</a>
@@ -41,190 +44,170 @@
             </div>
         </div>
     </header>
-    <!-- Portfolio Section -->
-    <div id="portfolio">
-        <div class="container">
-            <div class="row section-title">
-                <div class="col-sm-9">  
-                    <h2>Portfolio</h2>
-                </div>
-                <div class="col-sm-3 pt-3 navigate-top">
-                    <a href="#header">GO TO TOP</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="portfolio-item animated zoomIn">
-                        <div class="card text-center" style="width: 420px;">
-                            <a href="./assets/images/Weather-Dashboard.gif">
-                                <img src="./assets/images/Weather-Dashboard.png" class="img-fluid" alt="Weather Dashboard">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Weather Dashboard</h5>
-                                <p class="card-text">A weather application showing current and forecast weather for a location, built using AJAX</p>
-                                <a href="https://jesaldm.github.io/weather-dashboard/." target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Live</a>
-                                <a href="https://github.com/JesalDM/weather-dashboard/" target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Code</a>
-                            </div>
-                        </div>
+    <main>
+        <!-- Portfolio Section -->
+        <div id="portfolio">
+            <div class="container">
+                <div class="row section-title">
+                    <div class="col-sm-9">  
+                        <h2>Portfolio</h2>
+                    </div>
+                    <!-- Navigate to the home page link -->
+                    <div class="col-sm-3 pt-3 navigate-top">
+                        <a href="#header">GO TO TOP</a>
                     </div>
                 </div>
-                
-                <div class="col-lg-6">
-                    <div class="portfolio-item animated zoomIn">
-                        <div class="card text-center" style="width: 420px;">
-                            <a href="./assets/images/Work-Day-Scheduler.gif">
-                                <img src="./assets/images/Work-day-scheduler.png" class="img-fluid" alt="Work-day Scheduler">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Work-Day Scheduler</h5>
-                                <p class="card-text">A color-coded work-day scheduler application that saves tasks for the day</p>
-                                <a href="https://jesaldm.github.io/workday-scheduler/." target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Live</a>
-                                <a href="https://github.com/JesalDM/workday-scheduler/" target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Code</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="portfolio-item animated zoomIn">
-                        <div class="card text-center" style="width: 420px;">
-                            <a href="./assets/images/Javascript-Code-Quiz.gif">
-                                <img src="./assets/images/code-quiz.png" class="img-fluid" alt="Javascript Code Quiz - Welcome Page">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Javascript Code Quiz</h5>
-                                <p class="card-text">A timed and scored javascript built code quiz application that tests the javascript fundamentals and saves the user high scores.</p>
-                                <a href="https://jesaldm.github.io/code-quiz/." target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Live</a>
-                                <a href="https://github.com/JesalDM/code-quiz" target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Code</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="portfolio-item animated zoomIn">
-                        <div class="card text-center" style="width: 420px;">
-                            <a href="./assets/images/Drury-Lane-Sweets.gif">
-                                <img src="./assets/images/Drury-Lane-Sweets.png" class="img-fluid" alt="Dessert Place Website"> 
-                             </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Drury Lane Sweets</h5>
-                                <p class="card-text">A dessert place website with online ordering, delivery and catering services built using HTML, CSS, Javascript, JQuery, AJAX.</p>
-                                <a href="https://jesaldm.github.io/dessert-place-website/." target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Live</a>
-                                <a href="https://github.com/JesalDM/dessert-place-website/" target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Code</a>
-                            </div>
-                        </div>     
-                    </div>
+                <!-- div for displaying the projects -->
+                <div class="row projects">  
                 </div>
             </div>
         </div>
-    </div>
-    
-    <!-- About-me Section -->
-    <div id="about-me">
-        <div class="container">
-            <div class="row section-title">
-                <div class="col-sm-9">
-                    <h2>About Me</h2>
-                </div>
-                <div class="col-sm-3 pt-3 navigate-top about">
-                    <a class="pt-5" href="#header">GO TO TOP</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-11">
-                    <div class = "section">
-                        <img src="./assets/images/profile-picture.png" class="img-fluid float-left" alt="My profile picture">
-                        <p>I'm a <strong>Business Analyst</strong>, currently pursuing a Full stack Web Development Bootcamp from University of New Hampshire, to better my skills on my new found passion for technology. I'm a finance graduate  with a couple of years of international experience in a Credit Analyst role. After moving to US, I gathered my first experiences in the IT industry working as a Business Analyst in a fintech Company in Boston, that instantly grabbed my interest to work in this domain.</p>
-                        <p>I'm easy to work with, and strongly believe in teamwork. My dedication to work, willingness to learn more and firm determination has helped me produce outstanding results within defined timelines. I've consistently demonstrated success in guiding my projects to completion. I am looking to further my knowledge, improve my skills, and continue to learn.</p>
-                        <p>Outside of work, I enjoy travelling, playing indoor games, solving riddles and spending time with friends and family.</p> 
-                        <button class="btn btn-custom resume-btn"><a href="./assets/Jesal Mehta - Resume.pdf" target="_blank">Download Resume </a></button>
+        
+        <!-- About-me Section -->
+        <div id="about-me">
+            <div class="container">
+                <div class="row section-title">
+                    <div class="col-sm-9">
+                        <h2>About Me</h2>
                     </div>
-                </div> 
+                    <!-- Navigate to the home page link -->
+                    <div class="col-sm-3 pt-3 navigate-top about">
+                        <a class="pt-5" href="#header">GO TO TOP</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11">
+                        <div class = "section">
+                            <img src="./assets/images/profile-picture.png" class="img-fluid float-left" alt="My profile picture">
+                            <!--Background-->
+                            <p>I'm a <strong>Business Analyst</strong>, currently pursuing a Full stack Web Development Bootcamp from University of New Hampshire, to better my skills on my new found passion for technology. I'm a finance graduate  with a couple of years of international experience in a Credit Analyst role. After moving to US, I gathered my first experiences in the IT industry working as a Business Analyst in a fintech Company in Boston, that instantly grabbed my interest to work in this domain.</p>
+                            <!--Transferable skills-->
+                            <p>I'm easy to work with, and strongly believe in teamwork. My dedication to work, willingness to learn more and firm determination has helped me produce outstanding results within defined timelines. I've consistently demonstrated success in guiding my projects to completion. I am looking to further my knowledge, improve my skills, and continue to learn.</p>
+                            <!--Hobbies-->
+                            <p>Outside of work, I enjoy travelling, playing indoor games, solving riddles and spending time with friends and family.</p> 
+                            <!--Download Resume-->
+                            <button class="btn btn-custom resume-btn"><a href="./assets/JesalMehta_Resume.pdf" target="_blank">Download Resume </a></button>
+                        </div>
+                    </div> 
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Contact Section -->
-    <div id="contact">
-        <div class="container">
-            <section class="main-section contact">
-                <div class="contact_section">
-                    <div class="row section-title">
-                        <div class="col-sm-9">
-                            <h2>Contact Me</h2>
+        <!-- Contact Section -->
+        <div id="contact">
+            <div class="container">
+                <div class="main-section contact">
+                    <div class="contact_section">
+                        <div class="row section-title">
+                            <div class="col-sm-9">
+                                <h2>Contact Me</h2>
+                            </div>
+                            <!-- Navigate to the home page link -->
+                            <div class="col-sm-3 pt-3 navigate-top about">
+                                <a class="pt-5" href="#header">GO TO TOP</a>
+                            </div>
                         </div>
-                        <div class="col-sm-3 pt-3 navigate-top about">
-                            <a class="pt-5" href="#header">GO TO TOP</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="contact_block">
-                                <div class="contact_block_icon rollIn animated">
-                                    <a href="https://www.google.com/maps/place/105+Osprey+Dr,+Portsmouth,+NH+03801/@43.08999,-70.7817797,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfb10619868f:0x4dcdde00631eebfb!8m2!3d43.08999!4d-70.779591" target="_blank">
-                                        <span><i class="fas fa-home"></i></span>
-                                    </a>
+                        <!--Address, phone and email details-->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="contact_block">
+                                    <div class="contact_block_icon rollIn animated">
+                                        <a href="https://www.google.com/maps/place/105+Osprey+Dr,+Portsmouth,+NH+03801/@43.08999,-70.7817797,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfb10619868f:0x4dcdde00631eebfb!8m2!3d43.08999!4d-70.779591" target="_blank">
+                                            <span><i class="fas fa-home"></i></span>
+                                        </a>
+                                    </div>
+                                    <span> 105 Osprey Drive <br>
+                                    Portsmouth, NH 03801 </span> 
                                 </div>
-                                <span> 105 Osprey Drive <br>
-                                Portsmouth, NH 03801 </span> 
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="contact_block">
-                                <div class="contact_block_icon icon2 rollIn animated">
-                                    <a href="tel:603-502-8253">
-                                        <span><i class="fas fa-phone"></i></span>
-                                    </a>
+                            <div class="col-md-4">
+                                <div class="contact_block">
+                                    <div class="contact_block_icon icon2 rollIn animated">
+                                        <a href="tel:603-502-8253">
+                                            <span><i class="fas fa-phone"></i></span>
+                                        </a>
+                                    </div>
+                                    <span> (603)-502-8253 </span> 
                                 </div>
-                                <span> (603)-502-8253 </span> 
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="contact_block">
-                                <div class="contact_block_icon icon3 rollIn animated">
-                                    <a href="mailto:jesaldmehta@gmail.com">
-                                        <span><i class="fas fa-envelope-square"></i></span>
-                                    </a>
+                            <div class="col-md-4">
+                                <div class="contact_block">
+                                    <div class="contact_block_icon icon3 rollIn animated">
+                                        <a href="mailto:jesaldmehta@gmail.com">
+                                            <span><i class="fas fa-envelope-square"></i></span>
+                                        </a>
+                                    </div>
+                                    <span>jesaldmehta@gmail.com </span>
                                 </div>
-                                <span>jesaldmehta@gmail.com </span> </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="contact-info-box fadeInLeft animated">
-                                <h3>Let's connect!</h3>
-                                <p>For inquiries or collaborations please contact me by phone/email or fill out the form alongside.</p>
+                        <!--Github and LinkedIn profile links-->
+                        <div class="row mt-5">
+                            <div class="col-md-6">
+                                <div class="contact-info-box fadeInLeft animated">
+                                    <h3>Let's connect!</h3>
+                                    <p>For inquiries or collaborations please contact me by phone/email or fill out the form alongside.</p>
+                                </div>
+                                <ul class="social-link animated bounceInUp">
+                                    <li class="github ">
+                                        <a href="https://github.com/JesalDM/" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </li>
+                                    <li class="linkedIn">
+                                        <a href="https://www.linkedin.com/in/jesal-mehta-264bb2169/" target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </li>          
+                                </ul>
                             </div>
-                            <ul class="social-link animated bounceInUp">
-                                <li class="github ">
-                                    <a href="https://github.com/JesalDM/" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li class="linkedIn">
-                                    <a href="https://www.linkedin.com/in/jesal-mehta-264bb2169/" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>          
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 fadeInRight animated">
-                            <div class="form">
-                                <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-                                <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-                                <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-                                <input class="input-btn btn-lg" type="submit" value="send message">
+                            <div class="col-md-6 fadeInRight animated">
+                                <!--Form group input elements-->
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                        <!--Name input field-->
+                                            <label for="fullName">Name*</label>
+                                            <br>
+                                            <input type="text" class="form-control" id="fullName" placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                        <!--Email address input field-->
+                                        <label for="user-email">Email*</label>
+                                        <br>
+                                        <input type="email" class="form-control" id="user-email" placeholder="Your E-mail" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group">
+                                        <!--Message input box-->
+                                        <label for="messageText">Message*</label>
+                                        <br>
+                                        <textarea class="form-control" id="messageText" rows="4" placeholder="Your message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <!--Button to submit the contact form details-->
+                                        <button type="submit" value="Submit" class="input-btn btn" id="contactBtn">Submit</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
-    </div>
+    </main>
+    <!-- footer -->
+   
     <footer class="footer_bottom"> 
         <div class="container">
             <p>Copyright © 2020 Jesal Mehta</p> 
         </div>
     </footer>
+    <!-- External javascript file -->
+    <script src="./assets/script.js"></script>
 </body>
 </html>
