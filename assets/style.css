@@ -27,15 +27,15 @@ h5 {
 
 p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
 	font-weight: 400;
-	color: #888;
+	color: rgb(83, 81, 81);
+	font-size:22px;
 }
 
 .btn-custom {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-    color: #444;
+    color: rgb(65, 64, 64);
 	background-color: transparent;
 	border: 2px solid #444;
 	padding: 14px 20px;
@@ -64,8 +64,8 @@ p {
 
 /* Header Section */
 .intro {	
-	background: url(./images/portfolio-intro.png) no-repeat;
-}
+	background: #e5e5e5	
+};
 
 .intro p {
 	color: #444;
@@ -78,9 +78,14 @@ p {
 	padding-bottom: 200px;
 }
 
+.home-page-photo{
+	position: relative;
+	top: 100px;
+}
+
 /* Portfolio Section */
 #portfolio {
-	padding: 40px 0 100px;
+	padding: 60px 0 100px;
 }
 
 .portfolio-btn{
@@ -119,7 +124,7 @@ img{
 
 /* About-me Section */
 #about-me {
-	padding: 40px 0 100px;
+	padding: 60px 0 100px;
 	background: #d6dadd;
 }
 #about-me h2 {
@@ -136,6 +141,7 @@ img{
 	margin-bottom: 20px;
 	line-height: 30px;
 	text-align: justify;
+	font-size:15px;
 }
 
 .resume-btn{
