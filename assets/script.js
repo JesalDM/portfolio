@@ -2,41 +2,41 @@ $(document).ready(function() {
 // array of objects that represents the details of each portfolio item to be rendered on UI 
     const portfolioItem = [
         {
-        gifLink :"./assets/images/Weather-Dashboard.gif",
-        source : "./assets/images/Weather-Dashboard.png",
-        altText : "Weather Dashboard",
-        projectTitle : "Weather Dashboard",
-        projectBody : "A weather application showing current and forecast weather for a location, built using AJAX",
-        liveLink : "https://jesaldm.github.io/weather-dashboard/.",
-        codeLink : "https://github.com/JesalDM/weather-dashboard/"
+            gifLink :"./assets/images/Weather-Dashboard.gif",
+            source : "./assets/images/Weather-Dashboard.png",
+            altText : "Weather Dashboard",
+            projectTitle : "Weather Dashboard",
+            projectBody : "A weather application showing current and forecast weather for a location, built using AJAX",
+            liveLink : "https://jesaldm.github.io/weather-dashboard/.",
+            codeLink : "https://github.com/JesalDM/weather-dashboard/"
         },
         {
-        gifLink :"./assets/images/Work-Day-Scheduler.gif",
-        source : "./assets/images/Work-day-scheduler.png",
-        altText : "Work-day Scheduler",
-        projectTitle : "Work-Day Scheduler",
-        projectBody : "A color-coded work-day scheduler application that saves tasks for the day",
-        liveLink : "https://jesaldm.github.io/workday-scheduler/.",
-        codeLink : "https://github.com/JesalDM/workday-scheduler/"
+            gifLink :"./assets/images/Work-Day-Scheduler.gif",
+            source : "./assets/images/Work-day-scheduler.png",
+            altText : "Work-day Scheduler",
+            projectTitle : "Work-Day Scheduler",
+            projectBody : "A color-coded work-day scheduler application that saves tasks for the day",
+            liveLink : "https://jesaldm.github.io/workday-scheduler/.",
+            codeLink : "https://github.com/JesalDM/workday-scheduler/"
         },
         {
-        gifLink :"./assets/images/Javascript-Code-Quiz.gif",
-        source : "./assets/images/code-quiz.png",
-        altText : "Javascript Code Quiz - Welcome Page",
-        projectTitle : "Javascript Code Quiz",
-        projectBody : "A timed and scored javascript built code quiz application that tests the javascript fundamentals and saves the user high scores.",
-        liveLink : "https://jesaldm.github.io/code-quiz/.",
-        codeLink : "https://github.com/JesalDM/code-quiz"
+            gifLink :"./assets/images/Javascript-Code-Quiz.gif",
+            source : "./assets/images/code-quiz.png",
+            altText : "Javascript Code Quiz - Welcome Page",
+            projectTitle : "Javascript Code Quiz",
+            projectBody : "A timed and scored javascript built code quiz application that tests the javascript fundamentals and saves the user high scores.",
+            liveLink : "https://jesaldm.github.io/code-quiz/.",
+            codeLink : "https://github.com/JesalDM/code-quiz"
         },
         {
-        gifLink :"./assets/images/Drury-Lane-Sweets.gif",
-        source : "./assets/images/Drury-Lane-Sweets.png",
-        altText : "Dessert Place Website",
-        projectTitle : "Drury Lane Sweets",
-        projectBody : "A dessert place website with online ordering, delivery and catering services built using HTML, CSS, Javascript, JQuery, AJAX.",
-        liveLink : "https://jesaldm.github.io/Drury-Lane-Sweets/.",
-        codeLink : "https://github.com/JesalDM/Drury-Lane-Sweets/"
-    }
+            gifLink :"./assets/images/Drury-Lane-Sweets.gif",
+            source : "./assets/images/Drury-Lane-Sweets.png",
+            altText : "Dessert Place Website",
+            projectTitle : "Drury Lane Sweets",
+            projectBody : "A dessert place website with online ordering, delivery and catering services built using HTML, CSS, Javascript, JQuery, AJAX.",
+            liveLink : "https://jesaldm.github.io/Drury-Lane-Sweets/.",
+            codeLink : "https://github.com/JesalDM/Drury-Lane-Sweets/"
+         }
     ]
 
     //this function generates each portfolio item in the portfolio section
