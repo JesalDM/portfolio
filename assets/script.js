@@ -42,7 +42,18 @@ $(document).ready(function() {
     //this function generates each portfolio item in the portfolio section
     function generateProjectItem(item){
         // creates a template
-        const projImage = `<div class="portfolio-item animated zoomIn"><div class="card text-center" style="width: 420px;"><a href="${item.gifLink}" target="_blank"><img src="${item.source}" class="img-fluid" alt="${item.altText}"</a><div class="card-body"><h5 class="${item.projectTitle}"></h5><p class="card-text">${item.projectBody}</p><a href="${item.liveLink}" target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Live</a><a href="${item.codeLink}" target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Code</a></div></div></div>`   
+        const projImage = 
+        `<div class="portfolio-item animated zoomIn">
+            <div class="card text-center" style="width: 420px;">
+                <a href="${item.gifLink}" target="_blank"><img src="${item.source}" class="img-fluid" alt="${item.altText}"></a>
+                <div class="card-body">
+                    <h5>${item.projectTitle}</h5>
+                    <p class="card-text">${item.projectBody}</p>
+                    <a href="${item.liveLink}" target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Live</a>
+                    <a href="${item.codeLink}" target="_blank" class="btn btn-custom portfolio-btn btn-sm">View Code</a>
+                </div>
+            </div>
+        </div>`   
         // creates a div for every portfolio item
         const outerDiv = document.createElement("div");
         // adds a class to the div
