@@ -36,6 +36,15 @@ $(document).ready(function() {
             projectBody : "A dessert place website with online ordering, delivery and catering services built using HTML, CSS, Javascript, JQuery, AJAX.",
             liveLink : "https://jesaldm.github.io/Drury-Lane-Sweets/.",
             codeLink : "https://github.com/JesalDM/Drury-Lane-Sweets/"
+         },
+         {
+            gifLink :"https://jesaldm.github.io/team-profile-generator/assets/app-demo-part2.gif",
+            source : "https://jesaldm.github.io/team-profile-generator/assets/team-profile.png",
+            altText : "Manager's Team Profile",
+            projectTitle : "Team Profile Generator",
+            projectBody : "Node command line application that gathers team information and generates a software engineering team profile using Inquirer package",
+            liveLink : "https://jesaldm.github.io/team-profile-generator/assets/sampleTeam.html",
+            codeLink : "https://github.com/JesalDM/team-profile-generator"
          }
     ]
 
